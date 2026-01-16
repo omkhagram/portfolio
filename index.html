@@ -3,20 +3,69 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Your Name | Portfolio</title>
+  <title>Om Khagram | Portfolio</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; color: #111; }
+    .wrap { max-width: 980px; margin: 0 auto; padding: 28px 18px; }
+    nav a { margin-right: 14px; text-decoration: none; color: #111; }
+    .hero { padding: 26px 0 10px; }
+    .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin: 18px 0; }
+    .card { border: 1px solid #e6e6e6; border-radius: 12px; padding: 14px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; }
+    .muted { color: #555; }
+    .btn { display: inline-block; padding: 10px 12px; border: 1px solid #111; border-radius: 10px; text-decoration: none; color: #111; margin-right: 10px; }
+    footer { margin-top: 26px; padding-top: 16px; border-top: 1px solid #eee; }
+  </style>
 </head>
 <body>
-  <h1>Your Name</h1>
-  <p>Digital marketer focused on growth, performance, and analytics.</p>
+  <div class="wrap">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="work.html">Work</a>
+      <a href="about.html">About</a>
+    </nav>
 
-  <h2>Featured work</h2>
-  <ul>
-    <li><a href="https://example.com">Case study: Project 1</a></li>
-    <li><a href="https://example.com">Case study: Project 2</a></li>
-  </ul>
+    <section class="hero">
+      <h1>Om Khagram</h1>
+      <p class="muted">Digital Growth Engineer | Digital Strategy and Operations</p>
+      <p>I build the operational engines that make digital programs scalable, compliant, and measurable.</p>
+      <p>
+        <a class="btn" href="work.html">View case studies</a>
+        <a class="btn" href="Om-Khagram-Digital-Growth-Engineer-Resume.pdf">Download resume</a>
+      </p>
+    </section>
 
-  <h2>Contact</h2>
-  <p><a href="mailto:you@email.com">you@email.com</a></p>
-  <p><a href="https://www.linkedin.com/in/your-handle/">LinkedIn</a></p>
+    <section class="kpis">
+      <div class="card"><strong>11 years</strong><div class="muted">Digital strategy + ops</div></div>
+      <div class="card"><strong>$30M</strong><div class="muted">Portfolio governance (Mondelez)</div></div>
+      <div class="card"><strong>+68%</strong><div class="muted">Engagement vs benchmarks</div></div>
+      <div class="card"><strong>+23%</strong><div class="muted">Quarterly digital performance</div></div>
+    </section>
+
+    <section>
+      <h2>Featured work</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Content-to-Commerce Operating Model</h3>
+          <p class="muted">Governance, testing framework, scalable delivery</p>
+          <a href="case-studies/mondelez-content-to-commerce.html">Read case study</a>
+        </div>
+        <div class="card">
+          <h3>Niagara Falls Tourism Ecosystem</h3>
+          <p class="muted">Web, social, paid orchestration</p>
+          <a href="case-studies/niagara-falls-tourism.html">Read case study</a>
+        </div>
+        <div class="card">
+          <h3>Nestlé Paid Social Ops</h3>
+          <p class="muted">Team leadership, reporting, platform innovation rollout</p>
+          <a href="case-studies/nestle-paid-social-ops.html">Read case study</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p class="muted">Toronto, ON • <a href="mailto:om.khagram@gmail.com">om.khagram@gmail.com</a> • <a href="https://www.linkedin.com/in/omkhagram">LinkedIn</a></p>
+    </footer>
+  </div>
 </body>
 </html>
